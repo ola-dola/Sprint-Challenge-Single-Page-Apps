@@ -20,7 +20,7 @@ export default function CharacterList() {
   return (
     <section className="character-list">
       <h2>Ricky Morty Characters</h2>
-      <div>
+      <div className="flex" >
         {
           characters.map(character => {
             return <CharacterCard character={character} />;

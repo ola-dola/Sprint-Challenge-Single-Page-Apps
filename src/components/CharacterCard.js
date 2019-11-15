@@ -9,7 +9,7 @@ export default function CharacterCard({ character }) {
       <p>Status: {character.status}</p>
       <p>Location: {character.location.name}</p>
       <p>Location: {character.origin.name}</p>
-      <p>Number of Episodes: `${character.episode.length} episodes`</p>
+      <p>Number of Episodes: {character.episode.length} episodes</p>
     </div>
   );
 }

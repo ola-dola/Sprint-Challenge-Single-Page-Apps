@@ -7,7 +7,7 @@ export default function SearchForm() {
       <form>
         <input
           onChange={() => null}
-          placeholder="name"
+          placeholder="niame"
           value={name}
           name="name"
         />
