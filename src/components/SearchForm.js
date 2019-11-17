@@ -4,7 +4,15 @@ export default function SearchForm() {
  
   return (
     <section className="search-form">
-     // Add a search form here
+      <form>
+        <input
+          onChange={() => null}
+          placeholder="niame"
+          value={name}
+          name="name"
+        />
+        <button type="submit">Search</button>
+      </form>
     </section>
   );
 }

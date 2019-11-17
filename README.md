@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Routing between different components or views is faster since there is no need for further network request. It also provide easy animation and transition between different views.
 
 ## Project Set Up
 
